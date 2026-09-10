@@ -42,8 +42,8 @@ cp .env.example .env
 npm install
 npm run dev
 ```
-Runs on `http://localhost:5000`. Confirm it's working:
-`GET http://localhost:5000/api/health` should return `{"success":true, ...}`.
+Runs on `http://localhost:3000`. Confirm it's working:
+`GET http://localhost:3000/api/health` should return `{"success":true, ...}`.
 
 ### 3. Frontend
 ```bash
