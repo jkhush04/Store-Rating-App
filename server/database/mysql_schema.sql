@@ -1,4 +1,4 @@
-SET FOREIGN_KEY_CHECKS = 0;
+/* SET FOREIGN_KEY_CHECKS = 0;
 
 DROP TABLE IF EXISTS ratings;
 DROP TABLE IF EXISTS stores;
@@ -60,4 +60,7 @@ CREATE INDEX idx_stores_name    ON stores(name);
 CREATE INDEX idx_stores_address ON stores(address);
 
 CREATE INDEX idx_ratings_store_id ON ratings(store_id);
-CREATE INDEX idx_ratings_user_id  ON ratings(user_id);
+CREATE INDEX idx_ratings_user_id  ON ratings(user_id); */
+
+
+   UPDATE users SET role = 'admin' WHERE email = 'test@example.com';
